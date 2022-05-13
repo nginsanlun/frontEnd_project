@@ -1,0 +1,123 @@
+.sec-mainvisual .mv-ttl, .sec-mainvisual .contact-ttl{
+  text-align: center;
+  font-family: 'AachenStd-Bold';
+  font-size: 43px;
+  font-weight: bold;
+  letter-spacing: 2.8;
+  line-height: 2;
+}
+.sec-mainvisual .mv-ttl{
+  padding-bottom: 260px;
+}
+/*sec-mainvisual*/
+.sec-mainvisual .mv-ttl span{
+  padding-left: 37px;
+}
+/*sec-about-us*/
+.sec-about-us{
+  background-color: #FFFFFF;
+}
+.about-us{
+  color: #4D4D4D;
+}
+.about-us .cmn-img{
+  width: 555px;
+  /*width: 80%;*/
+}
+.about-us{
+position: relative;
+}
+.about-us .cmn-img, .about-us .aboutus-txt{
+  position: relative;
+  top: -100px;
+}
+/*sec-product*/
+.sec-product{
+  background-color: #F3B265;
+  padding-bottom: 90px;
+}
+.product .cmn-img{
+  padding-top: 66px;
+}
+.about-us .aboutus-txt{
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*sec-concrete-product*/
+.sec-concrete-product{
+  background-color: #192437;
+  padding-bottom: 89px;
+}
+.product-concrete{
+  padding-top: 97px;
+}
+.sec-quality-control{
+  background: url(../img/top/img_content04.jpg);
+  position: relative;
+  border: 1px solid #192437;
+  margin-top: 66px;
+}
+
+.quality-control{
+  background-color: #F3B265;
+  position: absolute;
+  top: 100px;
+}
+.quality-control .qc-ttl{
+  font-family: 'Roboto-Bold';
+  font-size: 30px;
+}
+.quality-control .cmn-btn{
+  position: relative;
+  margin-top: 172px;
+  right: 374px;
+  margin-bottom: 61px;
+}
+.footer{
+  background-color: #192437;
+  margin-top:550px;
+}
+.footer-nav-blk .nav-blk{
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 113px;
+}
+.sec-location .map-msg{
+  margin: 100px 0 63px;
+}
+.map-msg .location-map{
+  width: 50%;
+}
+.map-msg .location-msg{
+  width: 50%;
+}
+.map-msg .location-map iframe{
+  width: 100%;
+}
+
+.map-msg .location-msg .msg{
+  padding: 70px 0 30px 37px;
+  color: #AAAAAA;
+  font-family: 'Roboto-Regular';
+  font-size: 16px;
+}
+.location-msg .msg .send-msg{
+  font-family: 'Roboto-Bold';
+  font-size: 30px;
+  padding-bottom: 78px;
+}
+
+.msg .type-form{
+  width: 34%;
+  padding-left: 5px;
+  padding-top: 19px;
+  padding-bottom: 10px;
+  position: absolute;
+  border-bottom: 1px solid #303030;
+  line-height: 1.2;
+}
+.msg .message{
+  padding-bottom: 124px;
+}
+.msg .cmn-btn{
+  margin-top: 176px;
+}

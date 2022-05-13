@@ -1,0 +1,304 @@
+@font-face {
+  font-family: Roboto-Regular;
+  font-weight: normal;
+  src: url('../font/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: AachenStd-Bold;
+  src: url('../font/AachenStd-Bold.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url('../font/Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: Font-Awesome-6-Free;
+  src: url('../font/Font-Awesome-6-Free-Solid-900.otf');
+}
+@font-face {
+  font-family: Font-Awesome-6-Free;
+  src: url('../font/Font-Awesome-6-Free-Regular-400.otf');
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  color: #FFFFFF;
+  font-family: 'Roboto-Regular';
+  font-size: 16px;
+}
+.clearfix::after{
+clear: both;
+}
+ol, ul{
+  list-style: none;
+}
+li{
+  float: left;
+}
+a{
+  display: inline-block;
+}
+a:hover, a:active{
+  transition: 0.4s;
+}
+.ft-left{
+  float: left;
+  
+}
+.ft-right{
+  float: right;
+}
+#wrapper{
+  margin: 0 auto;
+}
+.l-inner{
+  margin: 0 auto;
+  max-width: 1110px;
+  /*width: 100%;*/
+}
+/*sec-mainvisual*/
+.sec-mainvisual{
+  background: url(../img/top/img_top.jpg);
+  background-size: cover;
+}
+.sec-mainvisual .header img{
+  padding-top: 16px;
+}
+.sec-mainvisual .gnav{
+  margin-top: 55px;
+}
+.sec-mainvisual .gnav li+li{
+  margin-left: 3px;
+}
+.sec-mainvisual .gnav li a{
+  padding: 6px 23px;
+  font-family: 'Roboto-Regular';
+  color: #FFFFFF;
+}
+.sec-mainvisual .gnav li a.active{
+  color: #FC8902;
+}
+.sec-mainvisual .mv-txt-blk{
+  width: 630px;
+  margin: 142px 120px 1px 218px;
+}
+/*sec-about-us*/
+
+.about-us .aboutus-txt, .product-concrete .product-txt-concrete{
+  padding-left: 30px;
+}
+
+.about-us .aboutus-txt, .product .product-txt{
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 555px;
+  /*width: 51%;*/
+}
+/*.aboutus-txt, .product-txt, .product-txt-concrete{
+  width: 555px;
+}*/
+.aboutus-txt .cmn-ttl, .product-txt .cmn-ttl, .product-txt-concrete .cmn-ttl{
+  font-family: 'Roboto-bold';
+  font-size: 30px;
+  font-weight: bold;
+}
+.aboutus-txt .cmn-ttl, .product-txt .cmn-ttl{
+  padding-top: 68px;
+}
+.aboutus-txt .cmn-txt-one{
+  padding-top: 22px;
+  font-style: italic;
+  line-height: 1.8;
+  padding-right: 119px;
+}
+.aboutus-txt .cmn-txt-two{
+  padding-top: 20px;
+  line-height: 1.8;
+  padding-right: 90px;
+}
+.aboutus-txt .cmn-btn{
+  margin-top: 62px;
+  padding: 10px 24px;
+  border:1px solid #FC8902;
+  color: #FC8902;
+  margin-bottom: 70px;
+}
+/*sec-product*/
+.sec-product{
+  margin-top: -4px;
+  }
+  .product{
+  padding-top: 35px;
+  /*padding-bottom: 90px;*/
+  }
+  .product-txt .cmn-txt-two{
+    padding-top: 33px;
+    line-height: 1.7;
+  }
+  .product-txt .cmn-btn{
+    margin-top: 41px;
+  }
+  .product-txt .cmn-btn, .product-txt-concrete .cmn-btn, .quality-control .cmn-btn{
+    padding: 8px 25px;
+    border:1px solid #FC8902;
+  color: #FC8902;
+  background-color: #FFFFFF;
+  }
+  .product-txt-concrete .cmn-txt-two{
+    width: 483px;
+    padding-top: 33px;
+    line-height: 1.9;
+  }
+  .product-txt-concrete .cmn-btn{
+    margin-top: 31px;
+  }
+.service-work{
+  width: 541px;
+  border: 1px solid #FC8902;
+  box-shadow: 0 2px 2px 0 rgb(252,137,2);
+  margin-top: 104px;
+  text-align: center;
+}
+
+.service-work i{
+  font-family: 'Font-Awesome-6-Free', 'Font-Awesome-6-Free';
+  color: #FC8902;
+  padding-top: 37px;
+  padding-right: 16px;
+  font-size: 56px;
+}
+.service-work .ser-work-ttl{
+  font-family: 'Roboto-bold';
+  font-size: 25px;
+  color: #333333;
+  padding-top: 19px;
+  padding-right: 18px;
+}
+.service-work .ser-work-txt{
+  font-family: 'Roboto-Regular';
+  font-size: 16px;
+  color: #333333;
+  padding: 21px 61px 71px 43px;
+  line-height: 1.9;
+}
+.quality-control{
+  padding-left: 50px;
+  padding-top: 52px;
+}
+.quality-control .three-left, .quality-control .three-right{
+  display: block;
+  padding-top: 26px;
+  padding-left: 6px;
+}
+.quality-control .three-left{
+  margin-right: 112px;
+}
+.quality-control .three-right{
+  margin-right: 173px;
+}
+.quality-control .three-left .fa-check-square, .quality-control .three-right .fa-check-square{
+  font-size: 20px;
+}
+.quality-control .three-left .txt-clmn, .quality-control .three-right .txt-clmn{
+  font-family: 'Roboto-Regular';
+  font-size: 20px;
+  padding-left: 13px;
+}
+/*footer*/
+.footer{
+  color: #FFFFFF;
+  font-family: 'Roboto-Regular';
+  font-size: 16px;
+}
+.footer-nav-blk{
+  padding: 96px 0;
+  padding-bottom: 83px;
+  background-color: #192437;
+}
+.footer-nav-blk ul li{
+  /*float: left;*/
+  width: 33%;
+}
+.footer-nav-blk .footer-ttl{
+  padding-bottom: 32px;
+  font-family: 'Roboto-bold';
+  font-size: 25px;
+}
+/*.footer-nav-blk ul li+li{
+  margin-left: 20px;
+}*/
+
+.footer-nav-blk .footer-nav li {
+  width: 355px;
+  font-family: 'Roboto-Regular';
+  font-size: 16px;                                           
+  padding: 10px 0;
+}
+.footer-nav-blk .footer-nav li a{
+  color: #FFFFFF;
+}
+.footer-nav-blk .footer-nav .address, .footer-nav-blk .footer-nav .phone, .footer-nav-blk .footer-nav .phone-office, .footer-nav-blk .footer-nav .envelope{
+  position: relative;
+  padding-left: 40px;
+}
+
+.footer-nav-blk .footer-nav .address::before, .footer-nav-blk .footer-nav .phone::before, .footer-nav-blk .footer-nav .phone-office::before, .footer-nav-blk .footer-nav .envelope::before{
+  font-family: 'Font-Awesome-6-Free';
+  position: absolute;
+  color: #FC8902;
+  left: 0;
+  font-size: 18px;
+}
+.footer-nav-blk .footer-nav .address::before{
+  content: '\f124';
+}
+.footer-nav-blk .footer-nav .phone::before{
+  content: '\f098';
+}
+.footer-nav-blk .footer-nav .phone-office::before{
+  content: '\f67d';
+}
+.footer-nav-blk .footer-nav .envelope::before{
+  content: '\f0e0';
+}
+
+.copyright-blk {
+  font-family: 'Roboto-Regular';
+  font-size: 16px;
+  margin-top: -50px;
+}
+.copyright-blk .social-media{
+padding-left: 248px;
+}
+
+/*Contact*/
+.mv-home-contact{
+  text-align: center;
+  margin-top: 77px;
+  margin-bottom: 15px;
+}
+
+.mv-home-contact .home-contact{
+  font-family: 'Roboto-Regular';
+  font-size: 16px;
+  background-color: #FC8902;
+  color: #FFFFFF;
+  padding: 9px 43px;
+  letter-spacing: 1.5;
+}
+.contact{
+  background: url(../img/contact/img_logo.jpg);
+  background-size: cover;
+}
+.mv-blk-clk .contact-ttl{
+  padding-bottom: 62px;
+}
+.location-msg .msg .cmn-btn{
+  margin-top: 178px;
+  padding: 10px 24px;
+  border:1px solid #FC8902;
+  color: #FC8902;
+  margin-bottom: 70px;
+}
