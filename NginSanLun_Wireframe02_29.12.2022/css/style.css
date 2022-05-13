@@ -1,0 +1,110 @@
+* {
+  width: 100%;
+  box-sizing: border-box;
+  color: #080c11;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header,
+footer {
+  border: 2px solid #080c11;
+}
+
+nav,
+footer {
+  padding: 15px 16px;
+}
+
+.logo-tagline,
+#feature {
+  margin-top: 3px;
+}
+
+.logo,
+.tagline {
+  width: 20%;
+  padding: 10px;
+  border: 2px solid #080c11;
+}
+
+.logo {
+  float: left;
+}
+
+.tagline {
+  float: right;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0px;
+  visibility: hidden;
+  font-size: 0px;
+  content: "";
+}
+
+.feature {
+  float: left;
+  width: 49%;
+  margin-right: 1px;
+  border: 2px solid #080c11;
+}
+
+.feature .study {
+  padding: 90px;
+}
+
+.clients {
+  float: right;
+  width: 50%;
+}
+
+.clients .one {
+  padding: 49px;
+  border: 2px solid #080c11;
+}
+
+.clients .client-heading {
+  margin-top: 6.4px;
+  text-align: left;
+}
+
+.clients .all {
+  margin-top: 5px;
+}
+
+.two,
+.three,
+.four {
+  float: left;
+  width: 32.45%;
+  padding: 33px;
+  border: 2px solid #080c11;
+}
+
+.two,
+.three {
+  margin-right: 10px;
+}
+
+#services,
+footer {
+  margin-top: 10px;
+}
+
+.div1,
+.div2,
+.div3 {
+  float: left;
+  width: 32.55%;
+  padding: 55px;
+  border: 2px solid #080c11;
+}
+
+.div1,
+.div2 {
+  margin-right: 18px;
+}
